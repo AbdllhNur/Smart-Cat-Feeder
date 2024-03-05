@@ -10,11 +10,11 @@
 #include <HX711.h>
 #include "soc/rtc.h"
 
-#define WIFI_SSID "racist"
-#define WIFI_PASSWORD "12345678"
+#define WIFI_SSID "WIFI_SSID"
+#define WIFI_PASSWORD "WIFI_PASSWORD"
 
-#define API_KEY "AIzaSyDzlvJYPoCBKKX_Dxuy1pVZPSWm0Hr9fho"
-#define DATABASE_URL "https://tubesiot-2c1a6-default-rtdb.asia-southeast1.firebasedatabase.app/"
+#define API_KEY "FIREBASE_API_KEY"
+#define DATABASE_URL "FIREBASE_RTDB_DB_LINK"
 
 FirebaseData fbdo;
 FirebaseAuth auth;
